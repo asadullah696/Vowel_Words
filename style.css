@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.container button {
+    width: 15rem ;
+}
+
+.result p {
+    font-size: 1.2rem;
+}
+div.allwords{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(30vw);
+    height: calc(50vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.vowel{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(45vw);
+    height: calc(50vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.normal{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(60vw);
+    height: calc(50vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
